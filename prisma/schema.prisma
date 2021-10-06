@@ -14,7 +14,7 @@ model Pokemon {
   id     Int     @id @default(autoincrement())
   name   String  @unique
   height Int?
-  Images Image[]
+  images Image[]
 }
 
 model Image {

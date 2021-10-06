@@ -11,5 +11,5 @@ export class CreatePokemonDto extends Pokemon {
   height?: number | null;
 
   @IsOptional()
-  Images?: Prisma.ImageUncheckedCreateNestedManyWithoutPokemonInput;
+  images?: Prisma.ImageUncheckedCreateNestedManyWithoutPokemonInput;
 }
